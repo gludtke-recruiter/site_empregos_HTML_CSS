@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body
+{   
+    color: #333;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #ffffff 1%, rgb(255, 255, 255) 99%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    
+    font-weight: normal;
+    text-align: center;
+}
+p{
+    font-sise: 16px;
+    margin-bottom: 1.5em;
+    line-height: :1.4em;
+    margin-left: 1.5em;
+    text-align: justify;
+    margin-right: 3.0em; 
+
+
+}
+#conteudo-principal h1{
+    font-size: 36px;
+    margin: bottom 0.5em;
+
+
+}
+
+#conteudo-principal h2,
+#conteudo-secundario h1{
+    font-size: 24px;
+    margin: bottom 0.5em;
+
+}
+#conteudo-principal ul,
+#conteudo-principal ol {
+    font-size: 16px;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#conteudo-principal ul {
+    list-style-type: square;
+}
+
+#conteudo-principal li {
+    margin-bottom: 0.3em;
+}
+
+#menu-h{
+
+    list-style-type: none;
+    padding: 10px;;
+    background-color: rgb(17, 16, 16);
+
+}
+#menu-h li{
+    display: inline;
+    padding:15px;
+    
+}
+
+#menu-h li a{
+    color:#fff;
+    text-decoration: none;
+    padding:10px;
+    display:inline-block; 
+
+}
+
+#menu-h li a:hover{
+    color:#8a80cd;
+   
+}
+
+
